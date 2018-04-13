@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aindriu80/Forkify.git"
+  },
+  "keywords": [
+    "ES6",
+    "NPM",
+    "Babel",
+    "and",
+    "Webpack"
+  ],
+  "author": "Aindriu Mac Giolla Eoin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aindriu80/Forkify/issues"
+  },
+  "homepage": "https://github.com/aindriu80/Forkify#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
+}
