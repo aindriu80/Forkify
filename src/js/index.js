@@ -34,7 +34,7 @@ const controlSearch = async () => {
         searchView.renderResults(state.search.result);
     }
 
-}
+};
 
 elements.searchForm.addEventListener('submit', e=> {
     e.preventDefault();
