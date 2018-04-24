@@ -39,7 +39,7 @@ export default class Recipe {
             // 2) Remove parentheses
 
             // 3) Parse ingredients into count, unit and ingredient
-            
+
         });
         this.ingredients = newIngredients;
     }
