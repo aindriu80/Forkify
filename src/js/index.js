@@ -168,7 +168,8 @@ const controlLike = () => {
     likesView.toggleLikeButton(true);
 
     // Add like to UI list
-    console.log(state.likes);
+    likesView.renderLike(newLike);
+    // console.log(state.likes);
 
     // User HAS yet liked current recipe
   } else {
@@ -177,7 +178,8 @@ const controlLike = () => {
     // Toggle the like button
     likesView.toggleLikeButton(false);
     // Remove like to UI list
-    console.log(state.likes);
+    // console.log(state.likes);
+    likesView.deleteLike(currendID);
   }
   likesView.toggleLikeMenu(state.likes.getNumLikes());
 };
