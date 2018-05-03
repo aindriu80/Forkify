@@ -7,3 +7,7 @@ export const toggleLikeButton = isLiked => {
     .setAttribute("href", `img/icons.svg#${iconString}`);
   //<use href="img/icons.svg#icon-heart-outlined
 };
+
+export const toggleLikeMenu = numLikes => {
+  elements.likesMenu.style.visibility = numLikes > 0 ? "visible" : "hidden";
+};
