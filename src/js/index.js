@@ -15,7 +15,7 @@ import { elements, renderLoader, clearLoader } from "./views/base";
  * - Like recipes
  */
 const state = {};
-window.state = state;
+
 /**Search Controller */
 
 const controlSearch = async () => {
@@ -75,7 +75,7 @@ elements.searchResPages.addEventListener("click", e => {
 const controlRecipe = async () => {
   // Get ID from url
   const id = window.location.hash.replace("#", "");
-  console.log(id);
+  // console.log(id);
 
   if (id) {
     // Prepare UI for changes
@@ -220,4 +220,4 @@ elements.recipe.addEventListener("click", e => {
   //   console.log(state.recipe);
 });
 
-window.l = new List();
+// window.l = new List();
